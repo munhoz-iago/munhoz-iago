@@ -9,7 +9,7 @@
      └─────────────────────────────────────────────────────────────────────────┘ -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=42&duration=1&pause=999999&color=0F172A&center=true&vCenter=true&width=900&height=80&lines=Iago+Munhoz" alt="Iago Munhoz" />
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=42&duration=1&pause=999999&color=1d4ed8&center=true&vCenter=true&width=900&height=80&lines=Iago+Munhoz" alt="Iago Munhoz" />
 </p>
 
 <p align="center">
