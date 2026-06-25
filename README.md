@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════
-     Iago Munhoz — README como landing page de SaaS
-     Estrutura: Hero · Proof · Product Suite · Stack · Numbers · CTA
+     Iago Munhoz — README
+     Estrutura: Hero · Proof · Engineering · Product Suite · Stack · Tools · CTA
      ═══════════════════════════════════════════════════════════════════════════ -->
 
 
@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <strong>Building B2B SaaS that solves expensive Brazilian problems.</strong>
+  <strong>Engenheiro full stack — Next.js · TypeScript · Supabase · Postgres.</strong>
 </p>
 
 <p align="center">
-  Engenheiro full stack focado em produtos para o mercado fiscal e contábil brasileiro.<br/>
-  Atualmente construindo o <a href="#-fiscalia"><strong>Fiscalia</strong></a>, plataforma para escritórios contábeis<br/>
-  navegarem a transição da Reforma Tributária de R$ 2,3 trilhões (2026–2033).
+  Construo aplicações B2B de ponta a ponta: arquitetura, banco, engine de regras e UI.<br/>
+  Pra provar que a engenharia aguenta produto sério, construí o <a href="#-dualisai"><strong>Dualisai</strong></a> sozinho —<br/>
+  SaaS multi-tenant com engine fiscal testada para a Reforma Tributária brasileira.
 </p>
 
 <p align="center">
@@ -31,12 +31,12 @@
 <br/>
 
 <!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  PROOF BAR — números que destoam de júnior                              │
+     │  PROOF BAR                                                              │
      └─────────────────────────────────────────────────────────────────────────┘ -->
 
 <p align="center">
-  <kbd>&nbsp;<strong>3</strong> produtos em produção&nbsp;</kbd>
   <kbd>&nbsp;<strong>138</strong> testes em engine fiscal&nbsp;</kbd>
+  <kbd>&nbsp;<strong>3</strong> produtos enviados&nbsp;</kbd>
   <kbd>&nbsp;<strong>C1</strong> Inglês (EF SET 62/100)&nbsp;</kbd>
   <kbd>&nbsp;<strong>2</strong> MCP servers próprios&nbsp;</kbd>
   <kbd>&nbsp;<strong>~40</strong> alunos formados em DEV&nbsp;</kbd>
@@ -47,27 +47,66 @@
 ---
 
 <!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  PRODUCT SUITE — Nobello · Fiscalia · SimulaMEI                         │
+     │  WHY ME — tese de contratação                                          │
      └─────────────────────────────────────────────────────────────────────────┘ -->
 
-## 🚀 Product Suite
+## 🧠 O que eu trago
 
-Três produtos. Três etapas distintas de maturidade. Mesmo padrão de engenharia.
+Não sou júnior de tutorial. Construo software que precisa estar certo — fiscal, multi-tenant, com dinheiro real do outro lado.
+
+- **2 anos de comércio exterior na Bosch Campinas** (SAP, Excel macros, Power BI, negociação C1 diária com times europeus e americanos) — entendo o domínio de negócio antes de codificar.
+- **Professor titular de Desenvolvimento de Sistemas** na rede SEDUC-SP — explico arquitetura, back-end, mobile e redes todo dia. Se não dá pra ensinar, eu não entendi.
+- **Tecnólogo em Análise e Desenvolvimento de Sistemas** (SENAI Roberto Mange, 2024) + Técnico em Mecatrônica (2022).
+- **Inglês C1 verificado** — leio RFC, escrevo issue em open source, trabalho remoto sem fricção.
+
+> Domínio do problema + engenharia que aguenta produção = a combinação que faltava no Dualisai, e a que levo pra qualquer time.
 
 <br/>
 
-<!-- ┌─── PRODUTO 1: NOBELLO ───────────────────────────────────────────────────┐ -->
+---
 
-### 🛒 [Nobello](https://nobello.com.br) &nbsp;·&nbsp; <sup>**em produção · Google Ads ativo**</sup>
+<!-- ┌─────────────────────────────────────────────────────────────────────────┐
+     │  PRODUCT SUITE                                                          │
+     └─────────────────────────────────────────────────────────────────────────┘ -->
 
-> E-commerce com módulo de CRM nativo. Pipeline de retenção, gestão de fornecedores, automação de pós-compra. Não é vitrine — é receita.
+## 🚀 Produtos que enviei
+
+Três produtos, três estágios de maturidade, mesmo padrão de engenharia.
+
+<br/>
+
+<!-- ┌─── DUALISAI ─────────────────────────────────────────────────────────────┐ -->
+
+### 📊 [Dualisai](https://dualisia.com.br) &nbsp;·&nbsp; <sup>**MVP · em construção ativa**</sup>
+
+> SaaS B2B multi-tenant para escritórios contábeis apurarem CBS e IBS sob a Reforma Tributária — o regime que entra em paralelo ao atual durante a transição.
 
 <p>
-  <code>Next.js</code>&nbsp;·&nbsp;<code>Supabase</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>TypeScript</code>&nbsp;·&nbsp;<code>Tailwind</code>
+  <code>Next.js 15</code>&nbsp;·&nbsp;<code>Supabase RLS</code>&nbsp;·&nbsp;<code>Inngest</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>decimal.js</code>
 </p>
 
 <p>
-  <strong>O que ele resolve:</strong> e-commerces pequenos perdem cliente por não terem CRM. Plataformas de CRM custam R$ 300+/mês e não falam com o catálogo. Nobello unifica os dois.
+  <strong>O problema:</strong> a partir de 2026, contadores brasileiros precisam apurar tributos em dois regimes durante a transição. ERPs grandes vão demorar; escritórios menores ficam sem ferramenta. Dualisai é a ponte.
+</p>
+
+<p>
+  <strong>Engenharia:</strong> engine fiscal com <strong>138 testes automatizados</strong> · arithmetic 100% em <code>decimal.js</code> (zero float em cálculo de tributo) · schema multi-tenant com RLS em todas as tabelas · pipeline assíncrono de processamento de NF-e via Inngest · CI/CD em GitHub Actions.
+</p>
+
+<p>
+  <sub>Engine e schema são privados (dados fiscais). Posso fazer walkthrough técnico em call.</sub>
+</p>
+
+<br/>
+
+<!-- ┌─── NOBELLO ──────────────────────────────────────────────────────────────┐ -->
+
+### 🛒 [Nobello](https://nobello.com.br) &nbsp;·&nbsp; <sup>**em produção**</sup>
+
+> E-commerce com módulo de CRM nativo. Pipeline de retenção, gestão de fornecedores, automação de pós-compra.
+
+<p>
+  <code>Next.js</code>&nbsp;·&nbsp;<code>Supabase</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>TypeScript</code>&nbsp;·&nbsp;<code>Tailwind</code>
 </p>
 
 <p>
@@ -80,33 +119,9 @@ Três produtos. Três etapas distintas de maturidade. Mesmo padrão de engenhari
 
 <br/>
 
-<!-- ┌─── PRODUTO 2: FISCALIA ──────────────────────────────────────────────────┐ -->
+<!-- ┌─── SIMULAMEI ────────────────────────────────────────────────────────────┐ -->
 
-### 📊 Fiscalia &nbsp;·&nbsp; <sup>**MVP semana 7/12 · launch Q3/2026**</sup>
-
-> B2B SaaS multi-tenant para escritórios contábeis brasileiros calcularem CBS e IBS em paralelo ao regime atual durante a transição da Reforma Tributária.
-
-<p>
-  <code>Next.js 15</code>&nbsp;·&nbsp;<code>Supabase RLS</code>&nbsp;·&nbsp;<code>Inngest</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>decimal.js</code>
-</p>
-
-<p>
-  <strong>O que ele resolve:</strong> a partir de 2026, todo contador brasileiro precisa calcular tributos em <strong>dois regimes simultaneamente</strong> por 7 anos. ERPs grandes vão demorar anos para entregar. Escritórios menores vão sofrer. Fiscalia é a ponte.
-</p>
-
-<p>
-  <strong>Engenharia:</strong> engine fiscal com <strong>138 testes automatizados</strong> cobrindo 12 regras de negócio (RN-001 → RN-012) · schema multi-tenant com 9 tabelas e RLS · pipeline assíncrono de processamento de NFe via Inngest · 5 sub-agents Claude Code para acelerar feature work.
-</p>
-
-<p>
-  <strong>Modelo:</strong> SaaS B2B · meta R$ 50k MRR em 18–24 meses · INPI classes 09/42 em registro.
-</p>
-
-<br/>
-
-<!-- ┌─── PRODUTO 3: SIMULAMEI ─────────────────────────────────────────────────┐ -->
-
-### 🧮 SimulaMEI &nbsp;·&nbsp; <sup>**spec completa · em desenvolvimento**</sup>
+### 🧮 [SimulaMEI](https://simulamei.com.br) &nbsp;·&nbsp; <sup>**no ar**</sup>
 
 > Simulador tributário B2C que mostra quando um MEI deveria virar Simples Nacional — incluindo análise de Fator R.
 
@@ -115,27 +130,12 @@ Três produtos. Três etapas distintas de maturidade. Mesmo padrão de engenhari
 </p>
 
 <p>
-  <strong>O que ele resolve:</strong> 14 milhões de MEIs no Brasil. A maioria não sabe quando ultrapassar o teto vira armadilha fiscal. Calculadoras existentes ignoram Fator R e atividade. SimulaMEI mostra o ponto exato de cruzamento e o custo de cada cenário.
+  <strong>O problema:</strong> 14 milhões de MEIs no Brasil; a maioria não sabe quando ultrapassar o teto vira armadilha fiscal. Calculadoras existentes ignoram Fator R. SimulaMEI mostra o ponto exato de cruzamento e o custo de cada cenário.
 </p>
 
-<br/>
-
----
-
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  WHY ME — o que sustenta os três acima                                  │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
-
-## 🧠 Por que esses três produtos fazem sentido
-
-Não saí escolhendo problema aleatório.
-
-- **2 anos de comércio exterior na Bosch Campinas** (SAP, Excel macros, Power BI, negociação C1 com fornecedores europeus) — entendo a dor fiscal antes de codificar.
-- **Professor titular de Desenvolvimento de Sistemas** na rede SEDUC-SP — explico arquitetura todo dia pra adolescente. Se não der pra ensinar, eu não entendi.
-- **Tecnólogo em Análise e Desenvolvimento de Sistemas** (SENAI Roberto Mange, 2024) + Técnico em Mecatrônica (2022).
-- **Inglês C1 verificado** — leio RFC, escrevo issue em projeto open source, negocio remoto sem fricção.
-
-> Mercado fiscal brasileiro = problema caro + barreira de entrada alta + dor recorrente. Engenharia decente + domínio do problema = vantagem injusta.
+<p>
+  <a href="https://simulamei.com.br"><strong>🌐 Ver no ar</strong></a>
+</p>
 
 <br/>
 
@@ -177,8 +177,8 @@ Não saí escolhendo problema aleatório.
 
 - Vercel · GitHub Actions
 - Stripe · webhooks idempotentes
-- MCP servers (TS)
-- Claude Code (5 sub-agents)
+- MCP servers (TypeScript)
+- Claude Code (multi-agent)
 - Figma · design tokens
 
 </td>
@@ -194,17 +194,21 @@ Não saí escolhendo problema aleatório.
 ---
 
 <!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  OPEN SOURCE & DEVTOOLS                                                 │
+     │  DEVTOOLS                                                               │
      └─────────────────────────────────────────────────────────────────────────┘ -->
 
 ## 🧰 Ferramentas que construí pra mim mesmo
 
 Quando o tooling não existe, eu construo. Mesmo padrão dos produtos: TypeScript, testes, README sério.
 
-- **[MCP Trello Server](https://github.com/MunhozIago244)** — 17 ferramentas TypeScript pra Claude operar Trello via Model Context Protocol.
+- **MCP Trello Server** — 17 ferramentas TypeScript pra operar Trello via Model Context Protocol.
 - **MCP Windows Server** — automação de computador via `nut-js`, 10 ferramentas.
-- **99Hunter** — extensão Chrome que escaneia 99Freelas e usa Claude API pra dar score de FIT.
-- **wellfound-hunter / gupy-hunter** — scrapers Python pra job market.
+- **99Hunter** — extensão Chrome que escaneia 99Freelas e usa a Claude API pra dar score de fit.
+- **wellfound-hunter / gupy-hunter** — scrapers Python pra mercado de trabalho.
+
+<p>
+  <a href="https://github.com/munhoz-iago"><strong>→ Ver no GitHub</strong></a>
+</p>
 
 <br/>
 
@@ -217,8 +221,8 @@ Quando o tooling não existe, eu construo. Mesmo padrão dos produtos: TypeScrip
 ## 📈 Números (atualizados pelo GitHub)
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=MunhozIago244&show_icons=true&theme=transparent&hide_border=true&title_color=0f172a&icon_color=0f172a&text_color=334155&include_all_commits=true&count_private=true&hide=issues" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MunhozIago244&layout=compact&theme=transparent&hide_border=true&title_color=0f172a&text_color=334155&langs_count=6&hide=html,css" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=munhoz-iago&show_icons=true&theme=transparent&hide_border=true&title_color=0f172a&icon_color=0f172a&text_color=334155&include_all_commits=true&count_private=true&hide=issues" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munhoz-iago&layout=compact&theme=transparent&hide_border=true&title_color=0f172a&text_color=334155&langs_count=6&hide=html,css" />
 </p>
 
 <br/>
@@ -264,5 +268,5 @@ Estou aberto a conversar sobre:
 <br/>
 
 <p align="center">
-  <sub><i>"Mercado bom é mercado caro, regulado e com dor recorrente. O resto é hobby."</i></sub>
+  <sub><i>"Mercado bom é problema caro, regulado e com dor recorrente. É onde engenharia decente vira vantagem real."</i></sub>
 </p>
