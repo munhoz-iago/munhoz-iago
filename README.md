@@ -1,272 +1,237 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════
-     Iago Munhoz — README
-     Estrutura: Hero · Proof · Engineering · Product Suite · Stack · Tools · CTA
-     ═══════════════════════════════════════════════════════════════════════════ -->
+<div align="center">
 
+# Iago Munhoz.
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  HERO                                                                   │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+### Software Engineer · Full-Stack Developer · Product Builder
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=800&size=42&duration=1&pause=999999&color=1d4ed8&center=true&vCenter=true&width=900&height=80&lines=Iago+Munhoz" alt="Iago Munhoz" />
-</p>
+**I build software where engineering meets business.**
 
-<p align="center">
-  <strong>Engenheiro full stack — Next.js · TypeScript · Supabase · Postgres.</strong>
-</p>
+From system architecture to production interfaces, I design and build
+end-to-end applications with a focus on reliability, scalability,
+data integrity, and real-world business problems.
 
-<p align="center">
-  Construo aplicações B2B de ponta a ponta: arquitetura, banco, engine de regras e UI.<br/>
-  Pra provar que a engenharia aguenta produto sério, construí o <a href="#-dualisai"><strong>Dualisai</strong></a> sozinho —<br/>
-  SaaS multi-tenant com engine fiscal testada para a Reforma Tributária brasileira.
-</p>
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-111827?style=for-the-badge&logo=vercel&logoColor=white)](https://munhoz-iago.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/munhoz-iago)
+[![Email](https://img.shields.io/badge/GET_IN_TOUCH-2563EB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:iagomunhoz48@gmail.com)
 
-<p align="center">
-  <a href="https://munhoz-iago.vercel.app"><strong>Portfolio →</strong></a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/munhoz-iago"><strong>LinkedIn →</strong></a> &nbsp;·&nbsp;
-  <a href="mailto:iagomunhoz48@gmail.com"><strong>iagomunhoz48@gmail.com →</strong></a>
-</p>
+`Campinas, Brazil` · `Available for remote opportunities`
 
-<br/>
-
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  PROOF BAR                                                              │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
-
-<p align="center">
-  <kbd>&nbsp;<strong>138</strong> testes em engine fiscal&nbsp;</kbd>
-  <kbd>&nbsp;<strong>3</strong> produtos enviados&nbsp;</kbd>
-  <kbd>&nbsp;<strong>C1</strong> Inglês (EF SET 62/100)&nbsp;</kbd>
-  <kbd>&nbsp;<strong>2</strong> MCP servers próprios&nbsp;</kbd>
-  <kbd>&nbsp;<strong>~40</strong> alunos formados em DEV&nbsp;</kbd>
-</p>
-
-<br/>
+</div>
 
 ---
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  WHY ME — tese de contratação                                          │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+### 01 / About me
 
-## 🧠 O que eu trago
+I'm a Brazilian full-stack developer focused on building software that
+solves complex business problems.
 
-Não sou júnior de tutorial. Construo software que precisa estar certo — fiscal, multi-tenant, com dinheiro real do outro lado.
+My work combines **product thinking, backend engineering, database
+architecture, and frontend development**.
 
-- **2 anos de comércio exterior na Bosch Campinas** (SAP, Excel macros, Power BI, negociação C1 diária com times europeus e americanos) — entendo o domínio de negócio antes de codificar.
-- **Professor titular de Desenvolvimento de Sistemas** na rede SEDUC-SP — explico arquitetura, back-end, mobile e redes todo dia. Se não dá pra ensinar, eu não entendi.
-- **Tecnólogo em Análise e Desenvolvimento de Sistemas** (SENAI Roberto Mange, 2024) + Técnico em Mecatrônica (2022).
-- **Inglês C1 verificado** — leio RFC, escrevo issue em open source, trabalho remoto sem fricção.
+I have experience working in an international corporate environment at
+**Bosch**, teaching software development, and independently building
+B2B and B2C products.
 
-> Domínio do problema + engenharia que aguenta produção = a combinação que faltava no Dualisai, e a que levo pra qualquer time.
+My main interests are:
 
-<br/>
+- **Full-stack engineering** — modern web applications and APIs.
+- **B2B SaaS** — multi-tenancy, authorization, billing, and workflows.
+- **Data integrity** — financial calculations, security, and testing.
+- **Developer experience** — automation, internal tools, and AI workflows.
+- **Software architecture** — maintainable systems built to evolve.
 
----
-
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  PRODUCT SUITE                                                          │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
-
-## 🚀 Produtos que enviei
-
-Três produtos, três estágios de maturidade, mesmo padrão de engenharia.
-
-<br/>
-
-<!-- ┌─── DUALISAI ─────────────────────────────────────────────────────────────┐ -->
-
-### 📊 [Dualisai](https://dualisia.com.br) &nbsp;·&nbsp; <sup>**MVP · em construção ativa**</sup>
-
-> SaaS B2B multi-tenant para escritórios contábeis apurarem CBS e IBS sob a Reforma Tributária — o regime que entra em paralelo ao atual durante a transição.
-
-<p>
-  <code>Next.js 15</code>&nbsp;·&nbsp;<code>Supabase RLS</code>&nbsp;·&nbsp;<code>Inngest</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>decimal.js</code>
-</p>
-
-<p>
-  <strong>O problema:</strong> a partir de 2026, contadores brasileiros precisam apurar tributos em dois regimes durante a transição. ERPs grandes vão demorar; escritórios menores ficam sem ferramenta. Dualisai é a ponte.
-</p>
-
-<p>
-  <strong>Engenharia:</strong> engine fiscal com <strong>138 testes automatizados</strong> · arithmetic 100% em <code>decimal.js</code> (zero float em cálculo de tributo) · schema multi-tenant com RLS em todas as tabelas · pipeline assíncrono de processamento de NF-e via Inngest · CI/CD em GitHub Actions.
-</p>
-
-<p>
-  <sub>Engine e schema são privados (dados fiscais). Posso fazer walkthrough técnico em call.</sub>
-</p>
-
-<br/>
-
-<!-- ┌─── NOBELLO ──────────────────────────────────────────────────────────────┐ -->
-
-### 🛒 [Nobello](https://nobello.com.br) &nbsp;·&nbsp; <sup>**em produção**</sup>
-
-> E-commerce com módulo de CRM nativo. Pipeline de retenção, gestão de fornecedores, automação de pós-compra.
-
-<p>
-  <code>Next.js</code>&nbsp;·&nbsp;<code>Supabase</code>&nbsp;·&nbsp;<code>Stripe</code>&nbsp;·&nbsp;<code>TypeScript</code>&nbsp;·&nbsp;<code>Tailwind</code>
-</p>
-
-<p>
-  <strong>Decisões de arquitetura:</strong> stack server-first (RSC) pra não pagar JS desnecessário · webhooks Stripe idempotentes · RLS Supabase isolando dados de fornecedor.
-</p>
-
-<p>
-  <a href="https://nobello.com.br"><strong>🌐 Ver em produção</strong></a>
-</p>
-
-<br/>
-
-<!-- ┌─── SIMULAMEI ────────────────────────────────────────────────────────────┐ -->
-
-### 🧮 [SimulaMEI](https://simulamei.com.br) &nbsp;·&nbsp; <sup>**no ar**</sup>
-
-> Simulador tributário B2C que mostra quando um MEI deveria virar Simples Nacional — incluindo análise de Fator R.
-
-<p>
-  <code>Next.js</code>&nbsp;·&nbsp;<code>TypeScript</code>&nbsp;·&nbsp;<code>Tailwind</code>
-</p>
-
-<p>
-  <strong>O problema:</strong> 14 milhões de MEIs no Brasil; a maioria não sabe quando ultrapassar o teto vira armadilha fiscal. Calculadoras existentes ignoram Fator R. SimulaMEI mostra o ponto exato de cruzamento e o custo de cada cenário.
-</p>
-
-<p>
-  <a href="https://simulamei.com.br"><strong>🌐 Ver no ar</strong></a>
-</p>
-
-<br/>
+> I care about what happens after the code works: correctness, maintainability, and business impact.
 
 ---
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  STACK                                                                  │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+### 02 / Selected work
 
-## 🛠️ Stack
+#### [Dualisai](https://dualisia.com.br)
+**Multi-tenant SaaS · Brazilian Tax Reform**
 
-<table>
-<tr>
-<td valign="top" width="33%">
+A B2B platform designed to help accounting firms navigate the transition
+to Brazil's CBS and IBS tax systems.
 
-**Frontend**
+**Engineering highlights**
 
-- Next.js 15 (App Router, RSC)
-- React 19
-- TypeScript estrito
-- Tailwind + shadcn/ui
-- Framer Motion
+- Fiscal calculation engine with **138 automated tests**
+- Decimal arithmetic using `decimal.js`
+- Multi-tenant PostgreSQL architecture with Row-Level Security
+- Asynchronous electronic invoice processing using Inngest
+- GitHub Actions CI/CD pipeline
+- Subscription and billing architecture
 
-</td>
-<td valign="top" width="33%">
+`Next.js` `TypeScript` `PostgreSQL` `Supabase` `Inngest` `Stripe`
 
-**Backend & Data**
+**Status:** Active MVP development
 
-- Node.js / Bun
-- PostgreSQL + Supabase
-- Row-Level Security
-- Inngest (jobs assíncronos)
-- Prisma · decimal.js
-
-</td>
-<td valign="top" width="33%">
-
-**Infra & DX**
-
-- Vercel · GitHub Actions
-- Stripe · webhooks idempotentes
-- MCP servers (TypeScript)
-- Claude Code (multi-agent)
-- Figma · design tokens
-
-</td>
-</tr>
-</table>
-
-<p>
-  <strong>Estudando agora:</strong> Java + Spring Boot · System Design · AWS fundamentals.
-</p>
-
-<br/>
+*The fiscal engine and data architecture are private. Technical
+architecture walkthroughs are available upon request.*
 
 ---
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  DEVTOOLS                                                               │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+#### [Nobello](https://nobello.com.br)
+**E-commerce · CRM · Business Operations**
 
-## 🧰 Ferramentas que construí pra mim mesmo
+A commerce platform combining storefront functionality with internal
+customer and supplier management workflows.
 
-Quando o tooling não existe, eu construo. Mesmo padrão dos produtos: TypeScript, testes, README sério.
+**Engineering highlights**
 
-- **MCP Trello Server** — 17 ferramentas TypeScript pra operar Trello via Model Context Protocol.
-- **MCP Windows Server** — automação de computador via `nut-js`, 10 ferramentas.
-- **99Hunter** — extensão Chrome que escaneia 99Freelas e usa a Claude API pra dar score de fit.
-- **wellfound-hunter / gupy-hunter** — scrapers Python pra mercado de trabalho.
+- Server-first application architecture
+- Native CRM and customer retention workflows
+- Supplier data isolation through RLS
+- Payment integration with idempotent webhook handling
+- Type-safe application development
 
-<p>
-  <a href="https://github.com/munhoz-iago"><strong>→ Ver no GitHub</strong></a>
-</p>
+`Next.js` `React` `TypeScript` `Supabase` `Stripe`
 
-<br/>
+**Status:** Production
 
----
-
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  NUMBERS                                                                │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
-
-## 📈 Números (atualizados pelo GitHub)
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=munhoz-iago&show_icons=true&theme=transparent&hide_border=true&title_color=0f172a&icon_color=0f172a&text_color=334155&include_all_commits=true&count_private=true&hide=issues" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munhoz-iago&layout=compact&theme=transparent&hide_border=true&title_color=0f172a&text_color=334155&langs_count=6&hide=html,css" />
-</p>
-
-<br/>
+[Explore product →](https://nobello.com.br)
 
 ---
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  TEACHING                                                               │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+#### [SimulaMEI](https://simulamei.com.br)
+**Financial Simulation · Tax Intelligence**
 
-## 🎓 Também ensino
+A decision-support application for Brazilian entrepreneurs evaluating
+the transition from MEI to Simples Nacional.
 
-Professor titular do curso **Técnico em Desenvolvimento de Sistemas** na EE Tenista Maria Esther Bueno (SEDUC-SP, Campinas). Cubro back-end, mobile, redes e lógica de programação.
+The product compares tax scenarios and provides visibility into
+business taxation, including Fator R considerations.
 
-> Se eu não consigo explicar uma arquitetura pra um adolescente de 16 anos, eu não entendi a arquitetura.
+`Next.js` `TypeScript` `Tailwind CSS`
 
-<br/>
+**Status:** Live
+
+[Explore product →](https://simulamei.com.br)
 
 ---
 
-<!-- ┌─────────────────────────────────────────────────────────────────────────┐
-     │  CTA                                                                    │
-     └─────────────────────────────────────────────────────────────────────────┘ -->
+### 03 / Engineering approach
 
-## 📬 Conversemos
+Building a working feature is only part of the job.
 
-Estou aberto a conversar sobre:
+| Principle | How I approach it |
+|:---|:---|
+| **Correctness** | Automated tests, deterministic calculations, explicit business rules |
+| **Security** | Authorization boundaries, RLS, input validation, tenant isolation |
+| **Architecture** | Separation of concerns, maintainable modules, clear interfaces |
+| **Reliability** | Idempotent operations, async workflows, failure handling |
+| **Performance** | Server-first rendering, efficient queries, controlled client-side JS |
+| **Delivery** | Git-based workflows, CI/CD, incremental releases |
 
-- **Vagas full stack pleno** — remoto, ou Campinas/SP presencial.
-- **Consultoria pontual** — Next.js, Supabase, Stripe, arquitetura B2B SaaS.
-- **Parceria em produto** — especialmente no espaço fiscal/contábil brasileiro.
+I prefer pragmatic engineering over unnecessary complexity.
 
-<p>
-  <a href="mailto:iagomunhoz48@gmail.com"><img src="https://img.shields.io/badge/iagomunhoz48@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/munhoz-iago"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://munhoz-iago.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</p>
+---
 
-<p>
-  <sub>📞 +55 19 99863-3898 · 🇧🇷 Campinas, SP</sub>
-</p>
+### 04 / Technology
 
-<br/>
+**Core stack**
 
-<p align="center">
-  <sub><i>"Mercado bom é problema caro, regulado e com dor recorrente. É onde engenharia decente vira vantagem real."</i></sub>
-</p>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Backend, infrastructure & data**
+
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-111111?style=flat-square&logo=vercel&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
+
+**UI, automation & tooling**
+
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Currently exploring:** Java, Spring Boot, distributed systems,
+system design, and AWS.
+
+---
+
+### 05 / Tools I've built
+
+I also develop tools to automate repetitive workflows and improve
+my own development environment.
+
+| Project | Description |
+|:---|:---|
+| **MCP Trello Server** | TypeScript MCP server with 17 tools for Trello operations |
+| **MCP Windows Server** | Desktop automation using `nut-js`, exposing 10 tools |
+| **99Hunter** | Chrome extension that evaluates freelance opportunities with AI |
+| **Wellfound / Gupy Hunters** | Python-based job discovery and automation tools |
+
+These projects reflect my interest in **developer tooling,
+AI-assisted workflows, and automation**.
+
+---
+
+### 06 / Beyond code
+
+**Software Development Instructor — São Paulo State Education Network**
+
+I teach technical software development topics, including backend
+development, mobile applications, networking, and programming logic.
+
+Teaching continuously challenges me to turn complex concepts
+into clear explanations.
+
+**Bosch — International business environment**
+
+Previously worked in foreign trade operations, using SAP,
+data analysis tools, Excel automation, and Power BI while
+collaborating with international teams.
+
+That experience shaped how I approach software:
+understand the business domain before designing the solution.
+
+**Education**
+
+- Technology Degree in Systems Analysis and Development — SENAI
+- Technical education in Mechatronics — SENAI
+- English proficiency: EF SET 62/100 (C1)
+
+---
+
+### 07 / GitHub activity
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=munhoz-iago&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub statistics" />
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=munhoz-iago&layout=compact&theme=github_dark&hide_border=true&langs_count=7" alt="Most used languages" />
+
+</div>
+
+---
+
+### 08 / Let's build something meaningful
+
+I'm interested in **full-stack engineering roles, B2B SaaS,
+challenging backend systems, and product collaborations**.
+
+If you're building a product that requires both technical
+depth and business understanding, I'd be happy to connect.
+
+**[Portfolio](https://munhoz-iago.vercel.app)**
+&nbsp;·&nbsp;
+**[LinkedIn](https://www.linkedin.com/in/munhoz-iago)**
+&nbsp;·&nbsp;
+**[Email](mailto:iagomunhoz48@gmail.com)**
+
+<div align="center">
+
+---
+
+<sub>Built with intention. Improved through iteration.</sub>
+
+</div>
