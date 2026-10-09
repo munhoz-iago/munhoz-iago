@@ -92,6 +92,23 @@ customer and supplier management workflows.
 
 ---
 
+#### [SecDocs RAG](https://github.com/munhoz-iago/secdocs-rag)
+**Java · Security documentation · Local AI**
+
+A public, reproducible RAG project built in Java to answer questions from
+OWASP Cheat Sheets with source excerpts. It uses Spring Boot, PostgreSQL with
+pgvector, local Ollama models, and a server-rendered demo.
+
+**Measured on a 30-question study set:** vector retrieval found the expected
+source in the top five for 25/25 answerable questions; hybrid retrieval found
+24/25. The dataset is small, and the repository documents its limits.
+
+`Java` `Spring Boot` `PostgreSQL` `pgvector` `Ollama` `OWASP` `RAG`
+
+[Read the architecture, evaluation, and study guide →](https://github.com/munhoz-iago/secdocs-rag)
+
+---
+
 #### [SimulaMEI](https://simulamei.com.br)
 **Financial Simulation · Tax Intelligence**
 
@@ -136,6 +153,8 @@ I prefer pragmatic engineering over unnecessary complexity.
 ![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
 
 **Backend, infrastructure & data**
 
@@ -153,8 +172,7 @@ I prefer pragmatic engineering over unnecessary complexity.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Currently exploring:** Java, Spring Boot, distributed systems,
-system design, and AWS.
+**Currently exploring:** distributed systems, system design, and AWS.
 
 ---
 
