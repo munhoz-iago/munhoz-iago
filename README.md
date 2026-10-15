@@ -70,6 +70,27 @@ architecture walkthroughs are available upon request.*
 
 ---
 
+#### [dualisia-cli](https://github.com/munhoz-iago/dualisia-cli)
+**Public CLI · Brazilian Tax Reform · npm package**
+
+The official command-line client for the Dualisia REST API. It calculates
+CBS and IBS from NF-e XML files, projects the tax burden for each year of the
+2026–2033 transition, and lists an accounting firm's clients and processed
+invoices with an API key.
+
+**Engineering highlights**
+
+- Published on npm as [`dualisia-cli`](https://www.npmjs.com/package/dualisia-cli)
+- `--json` output for scripts and agents, plus stable exit codes
+- Structured API errors with a stable `code` and a `hint` on how to fix them
+- Flags estimated rates for years that still depend on a Senate resolution
+
+`Node.js` `JavaScript` `REST API` `npm` `Vitest` `GitHub Actions`
+
+[View on npm →](https://www.npmjs.com/package/dualisia-cli)
+
+---
+
 #### [Nobello](https://nobello.com.br)
 **E-commerce · CRM · Business Operations**
 
@@ -106,6 +127,28 @@ source in the top five for 25/25 answerable questions; hybrid retrieval found
 `Java` `Spring Boot` `PostgreSQL` `pgvector` `Ollama` `OWASP` `RAG`
 
 [Read the architecture, evaluation, and study guide →](https://github.com/munhoz-iago/secdocs-rag)
+
+---
+
+#### [AegisLab](https://github.com/munhoz-iago/aegislab)
+**AppSec · Performance · Observability lab**
+
+A local-only, reproducible lab for application security, performance, and
+observability engineering. The TypeScript monorepo includes an authenticated
+Express API (scrypt, hashed session tokens, Origin checks, rate limiting),
+PostgreSQL with Drizzle, a React dashboard, a synthetic demo target, and a probe
+worker limited to one allowlisted origin, fixed paths, and call, time, and
+resource limits.
+
+**Verified locally and recorded in the evidence log:** 77 automated tests,
+including PostgreSQL integration; Playwright on desktop, mobile, and 320 px;
+live auth flows against Docker Compose; and API recovery from a PostgreSQL
+restart and pause without restarting the process. Scanner, load-testing, and
+telemetry integrations are on the roadmap and are not presented as done.
+
+`TypeScript` `Express` `PostgreSQL` `React` `Docker Compose` `Vitest` `Playwright`
+
+[Read the architecture and evidence log →](https://github.com/munhoz-iago/aegislab)
 
 ---
 
